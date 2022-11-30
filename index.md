@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Change what 
+Change what 😂 😂 💀 🍆
 [Press to abolish prisons](https://www.youtube.com/).
 
 <fake@example.com>
