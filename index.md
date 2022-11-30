@@ -4,7 +4,7 @@ layout: default
 
 Change what 
 #lets see how long until it changes
-[Link to another page]([./another-page.html](https://www.youtube.com/)).
+[Link to another page](https://www.youtube.com/).
 
 There should be whitespace between paragraphs.
 
