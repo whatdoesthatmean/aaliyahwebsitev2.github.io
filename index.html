@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Light & Dark Mode</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Kaushan+Script&family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Dark Mode Switcher -->
+    <div class="theme-switch-wrapper">
+      <!-- Text and icon -->
+      <span id="toggle-icon">
+        <span class="toggle-text">Light Mode</span>
+        <i class="fas fa-sun"></i>
+      </span>
+      <!-- Switcher -->
+      <label class="theme-switch">
+        <input type="checkbox" />
+        <div class="slider round"></div>
+      </label>
+    </div>
+    <!-- Navigation -->
+    <nav id="nav">
+      <a href="#home">HOME</a>
+      <a href="#about">ABOUT</a>
+      <a href="#projects">PROJECTS</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+    <!-- Home Section -->
+    <section id="home">
+      <div class="title-group">
+        <h1>Random website name</h1>
+        <h2>This might be the motto!</h2>
+      </div>
+    </section>
+    <!-- About Section -->
+    <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill-opacity="1"
+        d="M0,320L120,298.7C240,277,480,235,720,229.3C960,224,1200,256,1320,272L1440,288L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+      ></path>
+    </svg>
+    <section id="about">
+      <h1>Undraw Illustrations</h1>
+      <div class="about-container">
+        <div class="image-container">
+          <h2>Web Innovation</h2>
+          <img
+            src="img/undraw_proud_coder_light.svg"
+            alt="Proud Coder"
+            id="image1"
+          />
+        </div>
+        <div class="image-container">
+          <h2>Web Innovation</h2>
+          <img
+            src="img/undraw_feeling_proud_light.svg"
+            alt="Feeling Proud"
+            id="image2"
+          />
+        </div>
+        <div class="image-container">
+          <h2>Web Innovation</h2>
+          <img
+            src="img/undraw_conceptual_idea_light.svg"
+            alt="Conceptual idea"
+            id="image3"
+          />
+        </div>
+      </div>
+    </section>
+    <svg
+      class="wave-end"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1440 320"
+    >
+      <path
+        fill-opacity="1"
+        d="M0,64L80,80C160,96,320,128,480,122.7C640,117,800,75,960,64C1120,53,1280,75,1360,85.3L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
+      ></path>
+    </svg>
+    <!-- Projects Section -->
+    <section id="projects">
+      <h1>Buttons</h1>
+      <div class="buttons">
+        <button class="primary">Primary</button>
+        <button class="secondary">Secondary</button>
+        <button class="primary" disabled>Disabled</button>
+        <button class="secondary outline">Alt Outline</button>
+        <button class="outline" disabled>Disabled</button>
+      </div>
+      <div class="text-box" id="text-box">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ipsam
+          praesentium vero corrupti deleniti ab minus ut quidem cum commodi?
+          Animi harum excepturi, illum aperiam cum reiciendis sed maiores magni!
+        </p>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill-opacity="1"
+        d="M0,320L120,298.7C240,277,480,235,720,229.3C960,224,1200,256,1320,272L1440,288L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+      ></path>
+    </svg>
+    <section id="contact">
+      <div class="social-icons">
+        <i class="fab fa-github"></i>
+        <i class="fab fa-codepen"></i>
+        <i class="fab fa-linkedin-in"></i>
+        <i class="fab fa-medium"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+      </div>
+    </section>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
