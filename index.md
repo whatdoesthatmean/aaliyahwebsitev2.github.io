@@ -3,7 +3,6 @@ layout: default
 ---
 
 Change what 
-#lets see how long until it changes
 [Press to abolish prisons](https://www.youtube.com/).
 
 There should be whitespace between paragraphs.
@@ -94,7 +93,7 @@ end
 
 ### Small image
 
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+![Octocat]([https://github.githubassets.com/images/icons/emoji/octocat.png](https://www.google.com/search?q=cat&rlz=1C5CHFA_enUS704US704&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiy3ujOjtX7AhUkI0QIHX03BugQ_AUoAXoECAIQAw#imgrc=fKYuLeAg6ERb7M))
 
 ### Large image
 
