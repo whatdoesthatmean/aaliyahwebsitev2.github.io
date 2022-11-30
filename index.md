@@ -2,8 +2,8 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
+Change what 
+#lets see how long until it changes
 [Link to another page](./another-page.html).
 
 There should be whitespace between paragraphs.
